@@ -1,0 +1,19 @@
+#include<iostream>
+//tabla de multipicar
+using namespace std;
+
+int main(){
+	int cont;
+	int n_tabla;
+	cout<<"dime que tabla deseas: ";
+	cin>>n_tabla;
+	cout<<"*********************";
+	cout<<"   tabla del "<<n_tabla<<"   "<<endl;
+	cout<<"********************"<<endl;
+	for(cont=0;cont<=10;cont++){
+		cout<<n_tabla<<" x "<<cont<<" = "<<n_tabla*cont<<endl;
+	
+	}
+	return 0;
+}
+
