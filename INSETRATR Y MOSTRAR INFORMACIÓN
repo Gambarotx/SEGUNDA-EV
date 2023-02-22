@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include <iostream>
+using namespace std;
+int cont;
+char pelo[10];
+
+int main(){
+    cout<<"\nDime cuantos años tienes ";
+        cin>>cont;
+        printf("\nHas introducido %i",cont);
+        //Verificamos que lo hemos leido bien mostrandolo
+        //por pantalla
+        cout<<"\nTienes "<<cont<<" años";
+
+        cout<<"\nDime de qué color es tu pelo ";
+        cin>>pelo;
+        printf("\nTu pelo es %s",pelo);
+        //Verificamos que lo hemos leido bien mostrandolo
+        //por pantalla
+        cout<<"\nTienes "<<cont<<" años";
+    return 0;
+}
